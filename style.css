@@ -1,0 +1,90 @@
+body {	font-family: Calibri, sans-serif;
+		background-color: #91b4ed;
+        margin: 0;
+        }
+header {
+        border: 1px solid black;
+		margin: 1%;
+		padding: 0 10px;
+		background-color: #edd5f5;
+        max-width: 650px;
+        min-width: 100px;
+        min-height: 20px;
+        overflow: hidden;
+        }
+#ingredients {
+		background: #127ccc; 
+        border-width: 1px; 
+        border-style: solid;
+		border-color: black;
+        margin: 1% 1% 1% 1%; 
+        padding: 10px 10px 10px 10px; 
+		width: 35%; 
+        height: 370px; 
+        float:left;
+        min-width: 100px;
+        min-height: 20px;
+        overflow: hidden;
+	}
+#Method {
+		background:#487596; 
+        border-width: 1px; 
+        border-style: solid;
+		border-color: black; 
+        margin: 1% 1% 1% 1%; 
+        padding: 10px 10px 10px 10px; 
+		width: 55%; 
+        height: 370px; 
+        float:right;
+        min-width: 100px;
+        min-height: 20px;
+        overflow: hidden;
+	}
+	
+#footer {
+		background: #d9a9f5; 
+        border-width: 1px; 
+        border-style: solid;
+		border-color: black; 
+        margin: 1% 1% 1% 1%; 
+        padding-top: 0px; 
+        padding-right: 10px; 
+        padding-bottom: 0px; 
+        padding-left: 10px; 
+	    float: clear;
+        min-width: 100px;
+        min-height: 20px;
+        overflow: hidden;
+	}
+	
+span.metric {
+		color:#555555; 
+        font-style: italic;
+
+	}
+.topnav {
+  background-color: #91b4ed;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #555555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #487596;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #d9a9f5;
+  color: white;
+}
